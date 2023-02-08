@@ -1,32 +1,40 @@
 \documentclass{resume} 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
+\usepackage{hyperref}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Philip Lowe} % Your name
-\address{16 Dewey St. Manhasset, NY 11030} 
+\address{16 Dewey Street, Manhasset, NY 11030} 
+\address{\href{https://philowe94.github.io/portfolio/}{Portfolio} | \href{https://www.linkedin.com/in/philip-lowe-274b9a9a/}{LinkedIn} | \href{https://github.com/philowe94}{Github}}
 \address{(516) 282-5752 \\ philip.lowe94@gmail.com}
 
 \begin{document}
 
 \begin{rSection}{Education}
 
-    {\bf App Academy | New York, NY} \hfill {\em Spring 2021}
+    {\bf App Academy | New York, NY} \hfill{\em Spring 2021}
     \\ Immersive software development course with focus on full stack web development.
 
-        {\bf Northeastern University | Boston, MA} \hfill {\em May 2017}
+        {\bf Northeastern University | Boston, MA} \hfill{\em May 2017}
     \\ Khoury College of Computer Sciences, BS in Computer Science
 
 \end{rSection}
 
 \begin{rSection}{Projects}
-    \begin{rSubsection}{Levernote}{Live Site | Github}{React/Redux, Ruby on Rails, postgreSQL, Heroku}{}
+    \begin{rSubsection}{Levernote}
+        {\href{https://levernote.herokuapp.com/}{Live Site} |
+            \href{https://github.com/philowe94/levernote}{Github}}
+        {React/Redux, Ruby on Rails, postgreSQL, Heroku}{}
         \item Created an API interface using Rails for the back end.
         \item Rails queries the SQL database for authentication, notes, and notebooks.
         \item The React front-end displays the current user’s notes and notebooks based on information in a Redux store, which is populated by making API calls to the Rails back-end.
     \end{rSubsection}
 
 
-    \begin{rSubsection}{Alien Game}{Live Site | Github}{HTML5, Canvas API, JavaScript}{}
+    \begin{rSubsection}{Alien Game}
+        {\href{https://philowe94.github.io/alien-game/}{Live Site} |
+            \href{https://github.com/philowe94/alien-game}{Github}}
+        {HTML5, Canvas API, JavaScript}{}
         \item Leveraged HTML Canvas API used to render the game.
         \item Wrote game logic written in pure JavaScript, using Webpack to organize the code into modules.
         \item Authentic gameplay closely matching the GameBoy version.
