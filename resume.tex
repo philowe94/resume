@@ -4,7 +4,6 @@
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Philip Lowe} % Your name
-\address{16 Dewey Street, Manhasset, NY 11030} 
 \address{\href{https://philowe94.github.io/portfolio/}{Portfolio} | \href{https://www.linkedin.com/in/philip-lowe-274b9a9a/}{LinkedIn} | \href{https://github.com/philowe94}{Github}}
 \address{(516) 282-5752 \\ philip.lowe94@gmail.com}
 \hypersetup{
@@ -19,13 +18,38 @@
 \urlstyle{same}
 \begin{document}
 
+\begin{rSection}{Technical Strengths}
+
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+        Languages \        & JavaScript, Ruby                         \\
+        Technologies       & React, Redux, Ruby on Rails, TailwindCSS \\
+        Tools              & VSCode                                   \\
+        Databases          & postgreSQL, MongoDB, noSQL               \\
+        Cloud Technologies & Firebase, Google Cloud                   \\
+        Version Control    & Git/Github
+    \end{tabular}
+
+\end{rSection}
+
 \begin{rSection}{Education}
 
-    {\bf App Academy | New York, NY} \hfill{\em Spring 2021}
-    \\ Immersive software development course with focus on full stack web development.
+    {\bf App Academy | New York, NY} \hfill{\em July 2021}
 
-        {\bf Northeastern University | Boston, MA} \hfill{\em May 2017}
-    \\ Khoury College of Computer Sciences, BS in Computer Science
+    {\bf Northeastern University | Boston, MA} \hfill{\em May 2017}
+
+\end{rSection}
+
+\begin{rSection}{Work Experience}
+    \begin{rSubsection}{Streamline Media Group}{Dec 2021 - Feb 2023 }{Frontend Developer}{}
+        \item Developed an internal project management web application using React, Node, and Firebase.
+        \item Contributed to both front-end and back-end development, including writing backend functions.
+        \item Implemented an automated ad generation tool connecting Contentful with Facebook's Node Marketing API.
+    \end{rSubsection}
+    \begin{rSubsection}{Town of North Hempstead}{Feb 2018 - Feb 2021 }{IT Webmaster/Help Desk}{}
+        \item Built a new version of the town’s intranet website using Wordpress to update the old ASP site.
+        \item Managed content on the official public website, providing constituents with updated information about local government services and programs.
+        \item Digitally recreated many internal forms to streamline timekeeping processes.
+    \end{rSubsection}
 
 \end{rSection}
 
@@ -37,6 +61,7 @@
         \item Created an API interface using Rails for the back end.
         \item Rails queries the SQL database for authentication, notes, and notebooks.
         \item The React front-end displays the current user’s notes and notebooks based on information in a Redux store, which is populated by making API calls to the Rails back-end.
+        \item Built as a graduation project for App Academy.
     \end{rSubsection}
 
 
@@ -51,30 +76,4 @@
 
 \end{rSection}
 
-\begin{rSection}{Technical Strengths}
-
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-        Languages \        & JavaScript, Ruby                         \\
-        Technologies       & React, Redux, Ruby on Rails, TailwindCSS \\
-        Tools              & VSCode                                   \\
-        Databases          & postgreSQL, MongoDB, noSQL               \\
-        Cloud Technologies & Firebase, Google Cloud                   \\
-        Version Control    & Github
-    \end{tabular}
-
-\end{rSection}
-
-\begin{rSection}{Work Experience}
-    \begin{rSubsection}{Streamline Media Group}{Dec 2021 - Present}{Frontend Developer}{}
-        \item Built a new version of the town’s intranet website using Wordpress to update the old ASP site.
-        \item Managed content on the official public website, providing constituents with updated information about local government services and programs.
-        \item Digitally recreated many internal forms to streamline timekeeping processes.
-    \end{rSubsection}
-    \begin{rSubsection}{Town of North Hempstead}{Feb 2018 - Feb 2021 }{IT Webmaster/Help Desk}{}
-        \item Built a new version of the town’s intranet website using Wordpress to update the old ASP site.
-        \item Managed content on the official public website, providing constituents with updated information about local government services and programs.
-        \item Digitally recreated many internal forms to streamline timekeeping processes.
-    \end{rSubsection}
-
-\end{rSection}
 \end{document}
